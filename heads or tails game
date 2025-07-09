@@ -1,0 +1,19 @@
+import random
+random_integer = random.randint(1,2)
+choice = int(input("Choose 1 for heads and 2 for tails?: "))
+if choice == 1:
+    print("Heads")
+elif choice == 2:
+    print("Tails")
+else:
+    print("Invalid number")
+
+if random_integer == 1:
+    print("Heads")
+elif random_integer == 2:
+    print("Tails")
+
+if choice == random_integer:
+    print ("You win")
+else:
+    print("You lose") 
